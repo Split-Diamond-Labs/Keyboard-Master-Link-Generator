@@ -49,3 +49,7 @@ document.getElementById("stageTime").addEventListener("change", (e) => {
 });
 
 document.getElementById("url").addEventListener("change", updateURL);
+
+document.querySelector("#url").onclick = function() {
+    document.querySelector("#url").select();
+}
